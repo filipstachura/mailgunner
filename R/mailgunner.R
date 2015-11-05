@@ -62,7 +62,7 @@ mailgun_events <- function(url, api_key, nreq = 0) {
       success <- FALSE
     }
   }
-  df <- ldply(items, function(s){
+  df <- plyr::ldply(items, function(s){
     t(data.frame(unlist(s)))
   })
   df
