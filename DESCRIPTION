@@ -8,4 +8,5 @@ Description: TODO: More about what it does (maybe more than one line)
 License: TODO: What license is it under?
 LazyData: TRUE
 Imports:
-    httr
+    httr,
+    plyr
